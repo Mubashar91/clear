@@ -1,0 +1,145 @@
+          .interior{
+          margin-top: 0px;
+          font-size: 64px;  
+          font-weight:bolder; 
+          
+
+          }
+          .showcase{
+            color: red;
+            font-weight:bolder;
+            font-size: 48px;
+            margin-top: 19px;
+         
+          }
+          .service{
+            color:red;
+            font-weight:bold;
+            font-size: 48px;
+            font-family: sans-serif,poppins;
+            margin-top: 103;
+          }
+*{
+    box-sizing: border-box;
+  }
+  html,body{
+    overflow: -x,hidden;
+    height:100vh;
+  }
+  body{
+    font-family: sans-serif;
+    background: #fff;
+  }
+
+  #sidebarmenu{
+    height: 1199px;
+    background-color: #e63838;
+   }
+    
+  
+  .menu li{
+    padding-top:0px;
+    padding-left: 0px;
+    color: #fff;
+    display: block;
+    text-decoration: none;
+    text-transform: uppercase;
+    padding: 10px;
+    font:large;
+    font-weight: bold;
+  
+  }
+  .menu li a{
+    padding-right: 16pt;
+    color: white;
+    text-decoration: none;
+  }
+  h5{
+    color: #fff;
+  }
+  .float-container {
+    border: 3px solid #fff;
+    padding: 20px;
+  }
+  
+  .float-child {
+    width: 50%;
+    float: left;
+    padding: 20px;
+    border: 2px solid rgb(190, 109, 109);
+  }  
+  .column {
+    float: left;
+    width: 33.33%;
+    padding: 5px;
+  }
+  .row::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+  .column {
+    float: left;
+    width: 30%;
+    padding: 5px;
+  }
+  img {
+    width: 100%;
+  }
+  
+.cont{
+  width: 1000px;
+  
+  margin: 0px auto;
+  padding: 20px;
+  background-color: white;
+}
+.cont b{
+  text-align: center;
+  margin-bottom: 20px;
+  color: #333;
+}
+form input,
+form textarea{
+  display: block;
+  width: 100%;
+  margin-bottom: 10px;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  background-color: #f7f7f7;
+  color: #333;
+}
+form input:focus,
+form textarea:focus{
+  outline: none;
+  box-shadow: 0 0 5px #333;
+}
+form button{
+  display: block;
+  width: 100px;
+  padding: 10px;
+  width: 100%;
+  border: none;
+  border-radius: 5px;
+  background-color: red;
+  cursor:  pointer ;
+      transition: 0.3s;
+  
+}
+form button:hover{
+  background-color:gray;
+  align-items: center;
+  color: white;
+}
+
+
+
+
+
+
+
+
+
+
+
